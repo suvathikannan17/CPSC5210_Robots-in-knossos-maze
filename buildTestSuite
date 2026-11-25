@@ -1,0 +1,46 @@
+
+#!/bin/bash
+
+# Build the project
+echo "Building project..."
+cmake --build build-ninja
+BUILD_STATUS=$?
+
+# Run unit tests only if the build succeeds
+if [ "$BUILD_STATUS" -eq 0 ]; then
+    echo "Running unit tests..."
+    ./build-ninja/bin/MazeGeneratorTests
+    TEST_STATUS=$?
+else
+    TEST_STATUS=1
+fi
+
+# Check build result
+if [ "$BUILD_STATUS" -eq 0 ]; then
+    BUILD_SUCCESS="True"
+else
+    BUILD_SUCCESS="False"
+fi
+
+# Check test result
+if [ "$TEST_STATUS" -eq 0 ]; then
+    TESTS_PASSED="True"
+else
+    TESTS_PASSED="False"
+fi
+
+echo "-----------------------------"
+echo "Build Successful: $BUILD_SUCCESS"
+echo "Tests Passed: $TESTS_PASSED"
+echo "-----------------------------"
+
+
+# Send regression testing results by email
+if [ -z "$1" ]; then
+    echo "Error: Please provide an email address."
+    exit 1
+fi
+
+echo "Sending regression testing email..."
+
+python3 send_regression_email.py "$1" "$BUILD_SUCCESS" "$TESTS_PASSED"
