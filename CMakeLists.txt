@@ -103,6 +103,7 @@ add_executable(AllTests
     tests/MazeGeneratorTests.cpp
     tests/GameIOTests.cpp
     tests/MazeTests.cpp
+    tests/FieldTests.cpp
     RobotInKnossosMaze/Maze.cpp
     RobotInKnossosMaze/MazeGenerator.cpp
     RobotInKnossosMaze/Field.cpp
