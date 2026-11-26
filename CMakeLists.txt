@@ -99,7 +99,7 @@ enable_testing()
 
 find_package(GTest CONFIG REQUIRED)
 
-add_executable(MazeGeneratorTests
+add_executable(AllTests
     tests/MazeGeneratorTests.cpp
     tests/GameIOTests.cpp
     tests/MazeTests.cpp
@@ -109,22 +109,22 @@ add_executable(MazeGeneratorTests
     RobotInKnossosMaze/GameIO.cpp
 )
 
-target_include_directories(MazeGeneratorTests PRIVATE
+target_include_directories(AllTests PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/RobotInKnossosMaze
 )
 
-target_link_libraries(MazeGeneratorTests PRIVATE
+target_link_libraries(AllTests PRIVATE
     GTest::gtest_main
 )
 
 # Enable coverage for the tested code
 if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-    target_compile_options(MazeGeneratorTests PRIVATE
+    target_compile_options(AllTests PRIVATE
         --coverage
         -O0
         -g
     )
-    target_link_options(MazeGeneratorTests PRIVATE --coverage)
+    target_link_options(AllTests PRIVATE --coverage)
 endif()
 
-add_test(NAME MazeGeneratorTests COMMAND MazeGeneratorTests)
+add_test(NAME AllTests COMMAND AllTests)
