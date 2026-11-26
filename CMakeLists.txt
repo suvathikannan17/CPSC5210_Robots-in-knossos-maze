@@ -105,11 +105,13 @@ add_executable(AllTests
     tests/MazeTests.cpp
     tests/FieldTests.cpp
     tests/ItemTests.cpp
+    tests/GameTests.cpp
     RobotInKnossosMaze/Maze.cpp
     RobotInKnossosMaze/MazeGenerator.cpp
     RobotInKnossosMaze/Field.cpp
     RobotInKnossosMaze/GameIO.cpp
     RobotInKnossosMaze/Item.cpp
+    RobotInKnossosMaze/Game.cpp
 )
 
 target_include_directories(AllTests PRIVATE
