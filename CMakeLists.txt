@@ -102,6 +102,7 @@ find_package(GTest CONFIG REQUIRED)
 add_executable(MazeGeneratorTests
     tests/MazeGeneratorTests.cpp
     tests/GameIOTests.cpp
+    tests/MazeTests.cpp
     RobotInKnossosMaze/Maze.cpp
     RobotInKnossosMaze/MazeGenerator.cpp
     RobotInKnossosMaze/Field.cpp
