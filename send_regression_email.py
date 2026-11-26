@@ -37,7 +37,7 @@ message["Subject"] = "Milestone 2 - Regression Testing Results"
 
 message.set_content(
     "Hi,\n\n"
-    "We have completed the automated regression testing "
+    "We have expanded the automated regression testing "
     "for the Robot in Knossos Maze project.\n\n"
 
     "The buildTestSuite shell script automatically builds "
@@ -47,16 +47,18 @@ message.set_content(
     "Regression Testing Results:\n"
     f"Build Successful: {build_status}\n"
     f"Tests Passed: {test_status}\n"
-    "Total Unit Tests: 39\n"
-    "Test Suites: MazeTest, GameIOTest, MazeGeneratorTest\n\n"
+    "Expected Total Unit Tests: 63\n"
+    "Test Suites: MazeTest, GameIOTest, MazeGeneratorTest, "
+    "FieldTest, ItemTest, GameTest\n\n"
 
     "Code Coverage Results:\n"
-    "Line Coverage: 84.11%\n"
-    "Function Coverage: 85.00%\n"
-    "Branch Coverage: 60.49%\n\n"
+    "Line Coverage: 65.62%\n"
+    "Function Coverage: 89.66%\n"
+    "Branch Coverage: 44.13%\n\n"
 
-    "The regression testing script successfully automated "
-    "the build, test execution, and email notification process.\n\n"
+     "The Maze, MazeGenerator, and Field implementations "
+    "have achieved 100% line coverage. We are continuing "
+    "to improve coverage for Game and GameIO.\n\n"
 
     "Thank you.\n"
     "Suvathi Kannan\n"
@@ -66,14 +68,29 @@ message.set_content(
 try:
     context = ssl.create_default_context(cafile=certifi.where())
 
-    with smtplib.SMTP("smtp.gmail.com", 587, timeout=20) as smtp:
+    # with smtplib.SMTP("smtp.gmail.com", 587, timeout=20) as smtp:
+    #     smtp.ehlo()
+    #     smtp.starttls(context=context)
+    #     smtp.ehlo()
+    #     smtp.login(SENDER, password)
+    #     smtp.send_message(message)
+    with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as smtp:
+        smtp.set_debuglevel(1)
+
+        print("Connecting to Gmail...")
         smtp.ehlo()
+
+        print("Starting TLS...")
         smtp.starttls(context=context)
         smtp.ehlo()
+
+        print("Authenticating...")
         smtp.login(SENDER, password)
+
+        print("Sending email...")
         smtp.send_message(message)
 
-    print("Regression testing email sent successfully.")
+        print("Regression testing email sent successfully.")
 
 except Exception as error:
     print(f"Email sending failed: {error}")

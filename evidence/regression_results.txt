@@ -1,0 +1,150 @@
+Running main() from googletest/src/gtest_main.cc
+[==========] Running 63 tests from 6 test suites.
+[----------] Global test environment set-up.
+[----------] 18 tests from GameIOTest
+[ RUN      ] GameIOTest.MinimumAcceptedDimensions
+[       OK ] GameIOTest.MinimumAcceptedDimensions (0 ms)
+[ RUN      ] GameIOTest.MaximumDimensions
+[       OK ] GameIOTest.MaximumDimensions (0 ms)
+[ RUN      ] GameIOTest.BelowMinimumDimensions
+[       OK ] GameIOTest.BelowMinimumDimensions (0 ms)
+[ RUN      ] GameIOTest.AboveMaximumDimensions
+[       OK ] GameIOTest.AboveMaximumDimensions (0 ms)
+[ RUN      ] GameIOTest.NegativeDimensions
+[       OK ] GameIOTest.NegativeDimensions (0 ms)
+[ RUN      ] GameIOTest.NonNumericDimensions
+[       OK ] GameIOTest.NonNumericDimensions (0 ms)
+[ RUN      ] GameIOTest.ZeroDimensions
+[       OK ] GameIOTest.ZeroDimensions (0 ms)
+[ RUN      ] GameIOTest.ExactMinimumRejected
+[       OK ] GameIOTest.ExactMinimumRejected (0 ms)
+[ RUN      ] GameIOTest.QuitWithUppercaseQ
+[       OK ] GameIOTest.QuitWithUppercaseQ (0 ms)
+[ RUN      ] GameIOTest.QuitWithLowercaseQ
+[       OK ] GameIOTest.QuitWithLowercaseQ (0 ms)
+[ RUN      ] GameIOTest.QuitMessage
+[       OK ] GameIOTest.QuitMessage (0 ms)
+[ RUN      ] GameIOTest.LostMessage
+[       OK ] GameIOTest.LostMessage (0 ms)
+[ RUN      ] GameIOTest.WonMessage
+[       OK ] GameIOTest.WonMessage (0 ms)
+[ RUN      ] GameIOTest.WelcomeMessage
+[       OK ] GameIOTest.WelcomeMessage (0 ms)
+[ RUN      ] GameIOTest.Instructions
+[       OK ] GameIOTest.Instructions (0 ms)
+[ RUN      ] GameIOTest.MazeGenerationTime
+[       OK ] GameIOTest.MazeGenerationTime (0 ms)
+[ RUN      ] GameIOTest.ItemDescription
+[       OK ] GameIOTest.ItemDescription (0 ms)
+[ RUN      ] GameIOTest.ValidDimensions
+[       OK ] GameIOTest.ValidDimensions (0 ms)
+[----------] 18 tests from GameIOTest (1 ms total)
+
+[----------] 3 tests from MazeTest
+[ RUN      ] MazeTest.CorrectRowsAndColumns
+[       OK ] MazeTest.CorrectRowsAndColumns (0 ms)
+[ RUN      ] MazeTest.ConstIndexOperator
+[       OK ] MazeTest.ConstIndexOperator (0 ms)
+[ RUN      ] MazeTest.PrintMaze
+[       OK ] MazeTest.PrintMaze (0 ms)
+[----------] 3 tests from MazeTest (1 ms total)
+
+[----------] 7 tests from FieldTest
+[ RUN      ] FieldTest.ConstructorInitializesValues
+[       OK ] FieldTest.ConstructorInitializesValues (0 ms)
+[ RUN      ] FieldTest.GetPosition
+[       OK ] FieldTest.GetPosition (0 ms)
+[ RUN      ] FieldTest.SetPosition
+[       OK ] FieldTest.SetPosition (0 ms)
+[ RUN      ] FieldTest.GetSymbol
+[       OK ] FieldTest.GetSymbol (0 ms)
+[ RUN      ] FieldTest.SetSymbol
+[       OK ] FieldTest.SetSymbol (0 ms)
+[ RUN      ] FieldTest.NegativeAndZeroPosition
+[       OK ] FieldTest.NegativeAndZeroPosition (0 ms)
+[ RUN      ] FieldTest.MultipleSymbolUpdates
+[       OK ] FieldTest.MultipleSymbolUpdates (0 ms)
+[----------] 7 tests from FieldTest (0 ms total)
+
+[----------] 14 tests from ItemTest
+[ RUN      ] ItemTest.WarFogType
+[       OK ] ItemTest.WarFogType (0 ms)
+[ RUN      ] ItemTest.WarFogDescription
+[       OK ] ItemTest.WarFogDescription (0 ms)
+[ RUN      ] ItemTest.WarFogPositionAndSymbol
+[       OK ] ItemTest.WarFogPositionAndSymbol (0 ms)
+[ RUN      ] ItemTest.SwordType
+[       OK ] ItemTest.SwordType (0 ms)
+[ RUN      ] ItemTest.SwordDescription
+[       OK ] ItemTest.SwordDescription (0 ms)
+[ RUN      ] ItemTest.SwordPositionAndSymbol
+[       OK ] ItemTest.SwordPositionAndSymbol (0 ms)
+[ RUN      ] ItemTest.ShieldType
+[       OK ] ItemTest.ShieldType (0 ms)
+[ RUN      ] ItemTest.ShieldDescription
+[       OK ] ItemTest.ShieldDescription (0 ms)
+[ RUN      ] ItemTest.ShieldPositionAndSymbol
+[       OK ] ItemTest.ShieldPositionAndSymbol (0 ms)
+[ RUN      ] ItemTest.HammerType
+[       OK ] ItemTest.HammerType (0 ms)
+[ RUN      ] ItemTest.HammerDescription
+[       OK ] ItemTest.HammerDescription (0 ms)
+[ RUN      ] ItemTest.HammerPositionAndSymbol
+[       OK ] ItemTest.HammerPositionAndSymbol (0 ms)
+[ RUN      ] ItemTest.RandomItemIsCreated
+[       OK ] ItemTest.RandomItemIsCreated (0 ms)
+[ RUN      ] ItemTest.RandomItemHasValidType
+[       OK ] ItemTest.RandomItemHasValidType (0 ms)
+[----------] 14 tests from ItemTest (0 ms total)
+
+[----------] 3 tests from GameTest
+[ RUN      ] GameTest.ConstructorWithValidDimensions
+[       OK ] GameTest.ConstructorWithValidDimensions (0 ms)
+[ RUN      ] GameTest.ConstructorWithZeroItems
+[       OK ] GameTest.ConstructorWithZeroItems (0 ms)
+[ RUN      ] GameTest.QuitGame
+[       OK ] GameTest.QuitGame (0 ms)
+[----------] 3 tests from GameTest (1 ms total)
+
+[----------] 18 tests from MazeSizes/MazeGeneratorTest
+[ RUN      ] MazeSizes/MazeGeneratorTest.CorrectDimensions/0
+[       OK ] MazeSizes/MazeGeneratorTest.CorrectDimensions/0 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.CorrectDimensions/1
+[       OK ] MazeSizes/MazeGeneratorTest.CorrectDimensions/1 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.CorrectDimensions/2
+[       OK ] MazeSizes/MazeGeneratorTest.CorrectDimensions/2 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.OnlyValidSymbols/0
+[       OK ] MazeSizes/MazeGeneratorTest.OnlyValidSymbols/0 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.OnlyValidSymbols/1
+[       OK ] MazeSizes/MazeGeneratorTest.OnlyValidSymbols/1 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.OnlyValidSymbols/2
+[       OK ] MazeSizes/MazeGeneratorTest.OnlyValidSymbols/2 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.StartingPositionIsOpen/0
+[       OK ] MazeSizes/MazeGeneratorTest.StartingPositionIsOpen/0 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.StartingPositionIsOpen/1
+[       OK ] MazeSizes/MazeGeneratorTest.StartingPositionIsOpen/1 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.StartingPositionIsOpen/2
+[       OK ] MazeSizes/MazeGeneratorTest.StartingPositionIsOpen/2 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.BoundariesAreWalls/0
+[       OK ] MazeSizes/MazeGeneratorTest.BoundariesAreWalls/0 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.BoundariesAreWalls/1
+[       OK ] MazeSizes/MazeGeneratorTest.BoundariesAreWalls/1 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.BoundariesAreWalls/2
+[       OK ] MazeSizes/MazeGeneratorTest.BoundariesAreWalls/2 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.ContainsOpenPaths/0
+[       OK ] MazeSizes/MazeGeneratorTest.ContainsOpenPaths/0 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.ContainsOpenPaths/1
+[       OK ] MazeSizes/MazeGeneratorTest.ContainsOpenPaths/1 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.ContainsOpenPaths/2
+[       OK ] MazeSizes/MazeGeneratorTest.ContainsOpenPaths/2 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.AllOpenCellsAreConnected/0
+[       OK ] MazeSizes/MazeGeneratorTest.AllOpenCellsAreConnected/0 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.AllOpenCellsAreConnected/1
+[       OK ] MazeSizes/MazeGeneratorTest.AllOpenCellsAreConnected/1 (0 ms)
+[ RUN      ] MazeSizes/MazeGeneratorTest.AllOpenCellsAreConnected/2
+[       OK ] MazeSizes/MazeGeneratorTest.AllOpenCellsAreConnected/2 (0 ms)
+[----------] 18 tests from MazeSizes/MazeGeneratorTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 63 tests from 6 test suites ran. (11 ms total)
+[  PASSED  ] 63 tests.

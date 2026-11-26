@@ -1,28 +1,41 @@
 
 #!/bin/bash
 
+# Require recipient before starting
+if [ -z "$1" ]; then
+    echo "Usage: ./buildTestSuite RECIPIENT_EMAIL"
+    exit 1
+fi
+
 # Build the project
 echo "Building project..."
 cmake --build build-ninja
 BUILD_STATUS=$?
 
-# Run unit tests only if the build succeeds
+# Run regression tests if build succeeds
 if [ "$BUILD_STATUS" -eq 0 ]; then
-    echo "Running unit tests..."
-    ./build-ninja/bin/MazeGeneratorTests
+    echo "Running regression tests..."
+
+    mkdir -p evidence
+
+    ./build-ninja/bin/AllTests \
+        --gtest_output=xml:evidence/regression_results.xml \
+        > evidence/regression_results.txt 2>&1
+
     TEST_STATUS=$?
+
+    cat evidence/regression_results.txt
 else
     TEST_STATUS=1
 fi
 
-# Check build result
+# Convert exit codes into readable results
 if [ "$BUILD_STATUS" -eq 0 ]; then
     BUILD_SUCCESS="True"
 else
     BUILD_SUCCESS="False"
 fi
 
-# Check test result
 if [ "$TEST_STATUS" -eq 0 ]; then
     TESTS_PASSED="True"
 else
@@ -34,13 +47,8 @@ echo "Build Successful: $BUILD_SUCCESS"
 echo "Tests Passed: $TESTS_PASSED"
 echo "-----------------------------"
 
-
-# Send regression testing results by email
-if [ -z "$1" ]; then
-    echo "Error: Please provide an email address."
-    exit 1
-fi
-
+# Send email using existing Python script
 echo "Sending regression testing email..."
 
-python3 send_regression_email.py "$1" "$BUILD_SUCCESS" "$TESTS_PASSED"
+python3 send_regression_email.py \
+    "$1" "$BUILD_SUCCESS" "$TESTS_PASSED"
