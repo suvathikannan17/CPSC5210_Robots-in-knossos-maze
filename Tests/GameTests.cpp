@@ -2,6 +2,7 @@
 #include <gtest/gtest.h>
 #include "Game.h"
 #include "Item.h"
+#include "GameIO.h"
 #include <iostream>
 #include <sstream>
 #include <string>
@@ -123,6 +124,31 @@ protected:
         setSymbol(row + 1, col, '#');
         setSymbol(row, col - 1, '#');
         setSymbol(row, col + 1, '#');
+    }
+
+    std::string runGame(const std::string& commands) {
+    std::istringstream input(commands + "\nq\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    try {
+        game.run();
+    } catch (...) {
+        std::cin.rdbuf(oldCin);
+        std::cout.rdbuf(oldCout);
+        throw;
+    }
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    return output.str();
+    }
+
+    void blockMinotaur() {
+        surroundMinotaurWithWalls();
     }
 };
 
@@ -500,4 +526,113 @@ TEST_F(GameTestFixture, MinotaurMovesAwayFromShield) {
     EXPECT_EQ(getSymbol(2, 2), ' ');
     EXPECT_EQ(getSymbol(3, 2), 'M');
     EXPECT_EQ(getSymbol(2, 3), 'R');
+}
+
+// Test 32: Robot moves normally before quitting.
+TEST_F(GameTestFixture, RunGameMoveThenQuit) {
+    blockMinotaur();
+
+    std::string output = runGame("W");
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
+    EXPECT_NE(
+        output.find(GameIO::getQuitMessage()),
+        std::string::npos
+    );
+}
+
+// Test 33: Robot wins by reaching the top row.
+TEST_F(GameTestFixture, RunGameWinByReachingEntrance) {
+    blockMinotaur();
+    placeRobot(1, 7);
+    setSymbol(0, 7, 'I');
+
+    std::string output = runGame("W");
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(0, 7));
+    EXPECT_NE(
+        output.find(GameIO::getWonMessage()),
+        std::string::npos
+    );
+}
+
+// Test 34: Robot wins by attacking minotaur with sword.
+TEST_F(GameTestFixture, RunGameWinWithSword) {
+    activateSword();
+    placeMinotaur(6, 7);
+
+    std::string output = runGame("W");
+
+    EXPECT_NE(
+        output.find(GameIO::getWonMessage()),
+        std::string::npos
+    );
+
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+}
+
+// Test 35: Robot loses when moving into minotaur.
+TEST_F(GameTestFixture, RunGameLoseByRobotCollision) {
+    placeMinotaur(6, 7);
+
+    std::string output = runGame("W");
+
+    EXPECT_NE(
+        output.find(GameIO::getLostMessage()),
+        std::string::npos
+    );
+
+    EXPECT_EQ(getSymbol(6, 7), 'M');
+}
+
+// Test 36: Robot wins when minotaur attacks active sword.
+TEST_F(GameTestFixture, RunGameWinByMinotaurAttack) {
+    activateSword();
+    placeMinotaur(5, 7);
+
+    std::string output = runGame("W");
+
+    EXPECT_NE(
+        output.find(GameIO::getWonMessage()),
+        std::string::npos
+    );
+
+    EXPECT_EQ(getSymbol(5, 7), ' ');
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+}
+
+// Test 37: Robot loses when minotaur catches it.
+TEST_F(GameTestFixture, RunGameLoseByMinotaurAttack) {
+    placeMinotaur(5, 7);
+
+    std::string output = runGame("W");
+
+    EXPECT_NE(
+        output.find(GameIO::getLostMessage()),
+        std::string::npos
+    );
+
+    EXPECT_EQ(getSymbol(6, 7), 'M');
+}
+
+// Test 38: Game displays fogged maze when war fog is active.
+TEST_F(GameTestFixture, RunGameWithWarFog) {
+    activateWarFog();
+
+    std::string output = runGame("q");
+
+    EXPECT_NE(
+        output.find(GameIO::getQuitMessage()),
+        std::string::npos
+    );
+
+    EXPECT_NE(
+        output.find("   R   "),
+        std::string::npos
+    );
+
+    EXPECT_EQ(
+        output.find(std::string(15, '#')),
+        std::string::npos
+    );
 }
