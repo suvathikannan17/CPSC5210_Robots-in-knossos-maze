@@ -104,6 +104,26 @@ protected:
     delete game.maze_[row][column];
     game.maze_[row][column] = item;
     }
+
+    bool moveMinotaur() {
+    return game.moveMinotaur();
+    }
+
+    std::pair<int, int> getMinotaurPosition() {
+        return game.minotaur_->getPosition();
+    }
+
+    void surroundMinotaurWithWalls() {
+        auto position = getMinotaurPosition();
+
+        int row = position.first;
+        int col = position.second;
+
+        setSymbol(row - 1, col, '#');
+        setSymbol(row + 1, col, '#');
+        setSymbol(row, col - 1, '#');
+        setSymbol(row, col + 1, '#');
+    }
 };
 
 // Test 1: Construct game with valid dimensions
@@ -390,4 +410,94 @@ TEST_F(GameTestFixture, CollectWarFog) {
     EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
     EXPECT_EQ(getSymbol(6, 7), 'R');
     EXPECT_EQ(getSymbol(7, 7), ' ');
+}
+
+// Test 25: Minotaur moves to an available empty field.
+TEST_F(GameTestFixture, MinotaurMovesToEmptyField) {
+    surroundMinotaurWithWalls();
+    setSymbol(2, 3, ' ');
+
+    EXPECT_FALSE(moveMinotaur());
+
+    EXPECT_EQ(getMinotaurPosition(), std::make_pair(2, 3));
+    EXPECT_EQ(getSymbol(2, 2), ' ');
+    EXPECT_EQ(getSymbol(2, 3), 'M');
+}
+
+// Test 26: Minotaur cannot move when surrounded by walls.
+TEST_F(GameTestFixture, MinotaurBlockedByWalls) {
+    surroundMinotaurWithWalls();
+
+    EXPECT_FALSE(moveMinotaur());
+
+    EXPECT_EQ(getMinotaurPosition(), std::make_pair(2, 2));
+    EXPECT_EQ(getSymbol(2, 2), 'M');
+}
+
+// Test 27: Minotaur can move onto an item field.
+TEST_F(GameTestFixture, MinotaurMovesOntoItem) {
+    surroundMinotaurWithWalls();
+    placeItem(new Sword({2, 3}));
+
+    EXPECT_EQ(getSymbol(2, 3), 'P');
+
+    EXPECT_FALSE(moveMinotaur());
+
+    EXPECT_EQ(getMinotaurPosition(), std::make_pair(2, 3));
+    EXPECT_EQ(getSymbol(2, 2), ' ');
+    EXPECT_EQ(getSymbol(2, 3), 'M');
+}
+
+// Test 28: Minotaur catches robot without protection.
+TEST_F(GameTestFixture, MinotaurCatchesRobot) {
+    placeRobot(2, 3);
+
+    EXPECT_TRUE(moveMinotaur());
+
+    EXPECT_EQ(getMinotaurPosition(), std::make_pair(2, 3));
+    EXPECT_EQ(getSymbol(2, 2), ' ');
+    EXPECT_EQ(getSymbol(2, 3), 'M');
+}
+
+// Test 29: Sword defeats an attacking minotaur.
+TEST_F(GameTestFixture, SwordDefeatsAttackingMinotaur) {
+    activateSword();
+    placeRobot(2, 3);
+
+    EXPECT_TRUE(moveMinotaur());
+
+    EXPECT_EQ(getSymbol(2, 2), ' ');
+    EXPECT_EQ(getSymbol(2, 3), 'R');
+    EXPECT_EQ(getRobotPosition(), std::make_pair(2, 3));
+}
+
+// Test 30: Shield blocks minotaur when no other move exists.
+TEST_F(GameTestFixture, ShieldBlocksMinotaur) {
+    activateShield();
+    surroundMinotaurWithWalls();
+    placeRobot(2, 3);
+
+    EXPECT_FALSE(moveMinotaur());
+
+    EXPECT_EQ(getMinotaurPosition(), std::make_pair(2, 2));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(2, 3));
+    EXPECT_EQ(getSymbol(2, 2), 'M');
+    EXPECT_EQ(getSymbol(2, 3), 'R');
+}
+
+// Test 31: Minotaur moves away from robot with shield.
+TEST_F(GameTestFixture, MinotaurMovesAwayFromShield) {
+    activateShield();
+    surroundMinotaurWithWalls();
+    placeRobot(2, 3);
+
+    setSymbol(3, 2, ' ');
+
+    EXPECT_FALSE(moveMinotaur());
+
+    EXPECT_EQ(getMinotaurPosition(), std::make_pair(3, 2));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(2, 3));
+    EXPECT_EQ(getSymbol(2, 2), ' ');
+    EXPECT_EQ(getSymbol(3, 2), 'M');
+    EXPECT_EQ(getSymbol(2, 3), 'R');
 }
