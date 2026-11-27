@@ -70,6 +70,30 @@ protected:
         game.minotaur_ = game.maze_[row][column];
         game.minotaur_->setSymbol('M');
     }
+
+    void activateWarFog() {
+    game.war_fog_state_ = {true, 3};
+    }
+
+    void updateItems() {
+        game.updateItems();
+    }
+
+    std::pair<bool, int> getSwordState() {
+        return game.sword_state_;
+    }
+
+    std::pair<bool, int> getShieldState() {
+        return game.shield_state_;
+    }
+
+    std::pair<bool, int> getHammerState() {
+        return game.hammer_state_;
+    }
+
+    std::pair<bool, int> getWarFogState() {
+        return game.war_fog_state_;
+    }
 };
 
 // Test 1: Construct game with valid dimensions
@@ -213,4 +237,87 @@ TEST_F(GameTestFixture, RobotLosesWithoutProtection) {
 
     EXPECT_EQ(getSymbol(7, 7), ' ');
     EXPECT_EQ(getSymbol(6, 7), 'M');
+}
+
+// Test 15: Sword effect expires.
+TEST_F(GameTestFixture, SwordExpires) {
+    activateSword();
+
+    for (int i = 0; i < 4; i++) {
+        updateItems();
+    }
+
+    EXPECT_FALSE(getSwordState().first);
+}
+
+// Test 16: Shield effect expires.
+TEST_F(GameTestFixture, ShieldExpires) {
+    activateShield();
+
+    for (int i = 0; i < 4; i++) {
+        updateItems();
+    }
+
+    EXPECT_FALSE(getShieldState().first);
+}
+
+// Test 17: Hammer effect expires.
+TEST_F(GameTestFixture, HammerExpires) {
+    activateHammer();
+
+    for (int i = 0; i < 4; i++) {
+        updateItems();
+    }
+
+    EXPECT_FALSE(getHammerState().first);
+}
+
+// Test 18: War Fog effect expires.
+TEST_F(GameTestFixture, WarFogExpires) {
+    activateWarFog();
+
+    for (int i = 0; i < 4; i++) {
+        updateItems();
+    }
+
+    EXPECT_FALSE(getWarFogState().first);
+}
+
+// Test 19: Active items remain active before expiration.
+TEST_F(GameTestFixture, ItemsRemainActiveBeforeExpiration) {
+    activateSword();
+    activateShield();
+    activateHammer();
+    activateWarFog();
+
+    updateItems();
+
+    EXPECT_EQ(getSwordState(), std::make_pair(true, 2));
+    EXPECT_EQ(getShieldState(), std::make_pair(true, 2));
+    EXPECT_EQ(getHammerState(), std::make_pair(true, 2));
+    EXPECT_EQ(getWarFogState(), std::make_pair(true, 2));
+}
+
+// Test 20: Verify item expiration boundary.
+TEST_F(GameTestFixture, ItemExpirationBoundary) {
+    activateSword();
+    activateShield();
+    activateHammer();
+    activateWarFog();
+
+    for (int i = 0; i < 3; i++) {
+        updateItems();
+    }
+
+    EXPECT_EQ(getSwordState(), std::make_pair(true, 0));
+    EXPECT_EQ(getShieldState(), std::make_pair(true, 0));
+    EXPECT_EQ(getHammerState(), std::make_pair(true, 0));
+    EXPECT_EQ(getWarFogState(), std::make_pair(true, 0));
+
+    updateItems();
+
+    EXPECT_EQ(getSwordState(), std::make_pair(false, -1));
+    EXPECT_EQ(getShieldState(), std::make_pair(false, -1));
+    EXPECT_EQ(getHammerState(), std::make_pair(false, -1));
+    EXPECT_EQ(getWarFogState(), std::make_pair(false, -1));
 }
