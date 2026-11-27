@@ -15,6 +15,7 @@ public:
     void run();
 
 private:
+    friend class GameTestFixture;
     Maze maze_;
     /// Pointer to the robot's current field
     Field* robot_;
