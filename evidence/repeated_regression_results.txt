@@ -1,0 +1,2601 @@
+Running main() from googletest/src/gtest_main.cc
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (33 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (33 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (32 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (32 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (32 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (32 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (33 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (32 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+Maze successfully written to 'test_gameio_maze_output.txt'.
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+Maze successfully written to 'last_maze_state.txt'.
+Maze successfully written to 'test_gameio_maze_output.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[==========] 131 tests from 7 test suites ran. (31 ms total)
+[  PASSED  ] 131 tests.
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'last_maze_state.txt'.
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[==========] 131 tests from 7 test suites ran. (30 ms total)
+[  PASSED  ] 131 tests.

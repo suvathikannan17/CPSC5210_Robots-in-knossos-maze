@@ -150,6 +150,18 @@ protected:
     void blockMinotaur() {
         surroundMinotaurWithWalls();
     }
+
+    void fillMazeWithWalls() {
+    for (int row = 0; row < 15; row++) {
+        for (int col = 0; col < 15; col++) {
+            setSymbol(row, col, '#');
+        }
+    }
+    }
+
+    void placeFields(int itemsNum) {
+        game.placeFields(itemsNum);
+    }
 };
 
 // Test 1: Construct game with valid dimensions
@@ -635,4 +647,105 @@ TEST_F(GameTestFixture, RunGameWithWarFog) {
         output.find(std::string(15, '#')),
         std::string::npos
     );
+}
+
+// Test 39: Robot moves up using lowercase w.
+TEST_F(GameTestFixture, MoveRobotLowercaseUp) {
+    EXPECT_FALSE(moveRobot('w'));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
+}
+
+// Test 40: Robot moves down using lowercase s.
+TEST_F(GameTestFixture, MoveRobotLowercaseDown) {
+    EXPECT_FALSE(moveRobot('s'));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(8, 7));
+}
+
+// Test 41: Robot moves left using lowercase a.
+TEST_F(GameTestFixture, MoveRobotLowercaseLeft) {
+    EXPECT_FALSE(moveRobot('a'));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(7, 6));
+}
+
+// Test 42: Robot moves right using lowercase d.
+TEST_F(GameTestFixture, MoveRobotLowercaseRight) {
+    EXPECT_FALSE(moveRobot('d'));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(7, 8));
+}
+
+// Test 43: Invalid direction does not move the robot.
+TEST_F(GameTestFixture, InvalidRobotDirection) {
+    EXPECT_FALSE(moveRobot('X'));
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(7, 7));
+    EXPECT_EQ(getSymbol(7, 7), 'R');
+}
+
+// Test 44: Hammer cannot break bottom boundary.
+TEST_F(GameTestFixture, HammerCannotBreakBottomBoundary) {
+    activateHammer();
+    placeRobot(13, 7);
+
+    EXPECT_FALSE(moveRobot('S'));
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(13, 7));
+    EXPECT_EQ(getSymbol(14, 7), '#');
+}
+
+// Test 45: Hammer cannot break left boundary.
+TEST_F(GameTestFixture, HammerCannotBreakLeftBoundary) {
+    activateHammer();
+    placeRobot(7, 1);
+
+    EXPECT_FALSE(moveRobot('A'));
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(7, 1));
+    EXPECT_EQ(getSymbol(7, 0), '#');
+}
+
+// Test 46: Hammer cannot break right boundary.
+TEST_F(GameTestFixture, HammerCannotBreakRightBoundary) {
+    activateHammer();
+    placeRobot(7, 13);
+
+    EXPECT_FALSE(moveRobot('D'));
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(7, 13));
+    EXPECT_EQ(getSymbol(7, 14), '#');
+}
+
+// Test 47: Robot collects sword while hammer is active.
+TEST_F(GameTestFixture, CollectSwordWhileHammerActive) {
+    activateHammer();
+    placeItem(new Sword({6, 7}));
+
+    EXPECT_FALSE(moveRobot('W'));
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
+    EXPECT_EQ(getSwordState(), std::make_pair(true, 3));
+    EXPECT_EQ(getHammerState(), std::make_pair(true, 3));
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+}
+
+// Test 48: Field placement when no valid positions exist.
+TEST_F(GameTestFixture, PlaceFieldsWithNoAvailablePositions) {
+    fillMazeWithWalls();
+
+    placeFields(0);
+
+    for (int row = 0; row < 15; row++) {
+        for (int col = 0; col < 15; col++) {
+            EXPECT_EQ(getSymbol(row, col), '#');
+        }
+    }
+}
+
+// Test 49: Item placement when available fields are exhausted.
+TEST_F(GameTestFixture, PlaceItemsWithInsufficientSpace) {
+    fillMazeWithWalls();
+    setSymbol(7, 8, ' ');
+
+    placeFields(2);
+
+    EXPECT_EQ(getSymbol(7, 8), 'P');
 }
