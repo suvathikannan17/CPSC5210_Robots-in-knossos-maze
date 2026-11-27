@@ -1,7 +1,7 @@
 Running main() from googletest/src/gtest_main.cc
-[==========] Running 63 tests from 6 test suites.
+[==========] Running 131 tests from 7 test suites.
 [----------] Global test environment set-up.
-[----------] 18 tests from GameIOTest
+[----------] 40 tests from GameIOTest
 [ RUN      ] GameIOTest.MinimumAcceptedDimensions
 [       OK ] GameIOTest.MinimumAcceptedDimensions (0 ms)
 [ RUN      ] GameIOTest.MaximumDimensions
@@ -38,7 +38,55 @@ Running main() from googletest/src/gtest_main.cc
 [       OK ] GameIOTest.ItemDescription (0 ms)
 [ RUN      ] GameIOTest.ValidDimensions
 [       OK ] GameIOTest.ValidDimensions (0 ms)
-[----------] 18 tests from GameIOTest (1 ms total)
+[ RUN      ] GameIOTest.ValidItemsNumber
+[       OK ] GameIOTest.ValidItemsNumber (0 ms)
+[ RUN      ] GameIOTest.NegativeItemsNumber
+[       OK ] GameIOTest.NegativeItemsNumber (0 ms)
+[ RUN      ] GameIOTest.NonNumericItemsNumber
+[       OK ] GameIOTest.NonNumericItemsNumber (0 ms)
+[ RUN      ] GameIOTest.QuitItemsNumber
+[       OK ] GameIOTest.QuitItemsNumber (0 ms)
+[ RUN      ] GameIOTest.MoveUpUppercase
+[       OK ] GameIOTest.MoveUpUppercase (0 ms)
+[ RUN      ] GameIOTest.MoveLeftLowercase
+[       OK ] GameIOTest.MoveLeftLowercase (0 ms)
+[ RUN      ] GameIOTest.InvalidMoveThenValid
+[       OK ] GameIOTest.InvalidMoveThenValid (0 ms)
+[ RUN      ] GameIOTest.QuitMovementLowercase
+[       OK ] GameIOTest.QuitMovementLowercase (0 ms)
+[ RUN      ] GameIOTest.QuitMovementUppercase
+[       OK ] GameIOTest.QuitMovementUppercase (0 ms)
+[ RUN      ] GameIOTest.PrintMaze
+[       OK ] GameIOTest.PrintMaze (0 ms)
+[ RUN      ] GameIOTest.MaximumItemsCalculation
+[       OK ] GameIOTest.MaximumItemsCalculation (0 ms)
+[ RUN      ] GameIOTest.MaximumItemsAccepted
+[       OK ] GameIOTest.MaximumItemsAccepted (0 ms)
+[ RUN      ] GameIOTest.AboveMaximumItemsRejected
+[       OK ] GameIOTest.AboveMaximumItemsRejected (0 ms)
+[ RUN      ] GameIOTest.ExactMinimumItemsRejected
+[       OK ] GameIOTest.ExactMinimumItemsRejected (0 ms)
+[ RUN      ] GameIOTest.AllValidMovementDirections
+[       OK ] GameIOTest.AllValidMovementDirections (0 ms)
+[ RUN      ] GameIOTest.PrintFoggedMaze
+[       OK ] GameIOTest.PrintFoggedMaze (0 ms)
+[ RUN      ] GameIOTest.PrintFoggedMazeAtBoundary
+[       OK ] GameIOTest.PrintFoggedMazeAtBoundary (0 ms)
+[ RUN      ] GameIOTest.WriteMazeToFile
+Maze successfully written to 'test_gameio_maze_output.txt'.
+[       OK ] GameIOTest.WriteMazeToFile (0 ms)
+[ RUN      ] GameIOTest.WriteMazeToInvalidPath
+[       OK ] GameIOTest.WriteMazeToInvalidPath (0 ms)
+[ RUN      ] GameIOTest.ColumnSizeBelowMinimum
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[       OK ] GameIOTest.ColumnSizeBelowMinimum (0 ms)
+[ RUN      ] GameIOTest.ColumnSizeAboveMaximum
+ Enter the maze dimensions <rows, columns> (15-170): Error: Values must be between 15 and 170!
+[       OK ] GameIOTest.ColumnSizeAboveMaximum (0 ms)
+[ RUN      ] GameIOTest.WriteMazeWithEmptyFilename
+Maze successfully written to 'last_maze_state.txt'.
+[       OK ] GameIOTest.WriteMazeWithEmptyFilename (0 ms)
+[----------] 40 tests from GameIOTest (4 ms total)
 
 [----------] 3 tests from MazeTest
 [ RUN      ] MazeTest.CorrectRowsAndColumns
@@ -106,6 +154,121 @@ Running main() from googletest/src/gtest_main.cc
 [       OK ] GameTest.QuitGame (0 ms)
 [----------] 3 tests from GameTest (1 ms total)
 
+[----------] 46 tests from GameTestFixture
+[ RUN      ] GameTestFixture.MoveRobotUp
+[       OK ] GameTestFixture.MoveRobotUp (0 ms)
+[ RUN      ] GameTestFixture.MoveRobotDown
+[       OK ] GameTestFixture.MoveRobotDown (0 ms)
+[ RUN      ] GameTestFixture.MoveRobotLeft
+[       OK ] GameTestFixture.MoveRobotLeft (0 ms)
+[ RUN      ] GameTestFixture.MoveRobotRight
+[       OK ] GameTestFixture.MoveRobotRight (0 ms)
+[ RUN      ] GameTestFixture.RobotBlockedByWall
+[       OK ] GameTestFixture.RobotBlockedByWall (0 ms)
+[ RUN      ] GameTestFixture.RobotMovesIntoEntrance
+[       OK ] GameTestFixture.RobotMovesIntoEntrance (0 ms)
+[ RUN      ] GameTestFixture.HammerBreaksWall
+[       OK ] GameTestFixture.HammerBreaksWall (0 ms)
+[ RUN      ] GameTestFixture.HammerCannotBreakBoundaryWall
+[       OK ] GameTestFixture.HammerCannotBreakBoundaryWall (0 ms)
+[ RUN      ] GameTestFixture.RobotDefeatsMinotaurWithSword
+[       OK ] GameTestFixture.RobotDefeatsMinotaurWithSword (0 ms)
+[ RUN      ] GameTestFixture.ShieldProtectsRobot
+[       OK ] GameTestFixture.ShieldProtectsRobot (0 ms)
+[ RUN      ] GameTestFixture.RobotLosesWithoutProtection
+[       OK ] GameTestFixture.RobotLosesWithoutProtection (0 ms)
+[ RUN      ] GameTestFixture.SwordExpires
+[       OK ] GameTestFixture.SwordExpires (0 ms)
+[ RUN      ] GameTestFixture.ShieldExpires
+[       OK ] GameTestFixture.ShieldExpires (0 ms)
+[ RUN      ] GameTestFixture.HammerExpires
+[       OK ] GameTestFixture.HammerExpires (0 ms)
+[ RUN      ] GameTestFixture.WarFogExpires
+[       OK ] GameTestFixture.WarFogExpires (0 ms)
+[ RUN      ] GameTestFixture.ItemsRemainActiveBeforeExpiration
+[       OK ] GameTestFixture.ItemsRemainActiveBeforeExpiration (0 ms)
+[ RUN      ] GameTestFixture.ItemExpirationBoundary
+[       OK ] GameTestFixture.ItemExpirationBoundary (0 ms)
+[ RUN      ] GameTestFixture.CollectHammer
+=======================================================
+You picked up:
+Hammer: A heavy hammer that can break through walls.
+=======================================================
+[       OK ] GameTestFixture.CollectHammer (0 ms)
+[ RUN      ] GameTestFixture.CollectSword
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[       OK ] GameTestFixture.CollectSword (0 ms)
+[ RUN      ] GameTestFixture.CollectShield
+=======================================================
+You picked up:
+Shield: A sturdy shield that provides protection from minotaur attacks.
+=======================================================
+[       OK ] GameTestFixture.CollectShield (0 ms)
+[ RUN      ] GameTestFixture.CollectWarFog
+=======================================================
+You picked up:
+War Mist: A mystical fog that temporarily limits vision.
+=======================================================
+[       OK ] GameTestFixture.CollectWarFog (0 ms)
+[ RUN      ] GameTestFixture.MinotaurMovesToEmptyField
+[       OK ] GameTestFixture.MinotaurMovesToEmptyField (0 ms)
+[ RUN      ] GameTestFixture.MinotaurBlockedByWalls
+[       OK ] GameTestFixture.MinotaurBlockedByWalls (0 ms)
+[ RUN      ] GameTestFixture.MinotaurMovesOntoItem
+[       OK ] GameTestFixture.MinotaurMovesOntoItem (0 ms)
+[ RUN      ] GameTestFixture.MinotaurCatchesRobot
+[       OK ] GameTestFixture.MinotaurCatchesRobot (0 ms)
+[ RUN      ] GameTestFixture.SwordDefeatsAttackingMinotaur
+[       OK ] GameTestFixture.SwordDefeatsAttackingMinotaur (0 ms)
+[ RUN      ] GameTestFixture.ShieldBlocksMinotaur
+[       OK ] GameTestFixture.ShieldBlocksMinotaur (0 ms)
+[ RUN      ] GameTestFixture.MinotaurMovesAwayFromShield
+[       OK ] GameTestFixture.MinotaurMovesAwayFromShield (0 ms)
+[ RUN      ] GameTestFixture.RunGameMoveThenQuit
+[       OK ] GameTestFixture.RunGameMoveThenQuit (0 ms)
+[ RUN      ] GameTestFixture.RunGameWinByReachingEntrance
+[       OK ] GameTestFixture.RunGameWinByReachingEntrance (0 ms)
+[ RUN      ] GameTestFixture.RunGameWinWithSword
+[       OK ] GameTestFixture.RunGameWinWithSword (0 ms)
+[ RUN      ] GameTestFixture.RunGameLoseByRobotCollision
+[       OK ] GameTestFixture.RunGameLoseByRobotCollision (0 ms)
+[ RUN      ] GameTestFixture.RunGameWinByMinotaurAttack
+[       OK ] GameTestFixture.RunGameWinByMinotaurAttack (0 ms)
+[ RUN      ] GameTestFixture.RunGameLoseByMinotaurAttack
+[       OK ] GameTestFixture.RunGameLoseByMinotaurAttack (0 ms)
+[ RUN      ] GameTestFixture.RunGameWithWarFog
+[       OK ] GameTestFixture.RunGameWithWarFog (0 ms)
+[ RUN      ] GameTestFixture.MoveRobotLowercaseUp
+[       OK ] GameTestFixture.MoveRobotLowercaseUp (0 ms)
+[ RUN      ] GameTestFixture.MoveRobotLowercaseDown
+[       OK ] GameTestFixture.MoveRobotLowercaseDown (0 ms)
+[ RUN      ] GameTestFixture.MoveRobotLowercaseLeft
+[       OK ] GameTestFixture.MoveRobotLowercaseLeft (0 ms)
+[ RUN      ] GameTestFixture.MoveRobotLowercaseRight
+[       OK ] GameTestFixture.MoveRobotLowercaseRight (0 ms)
+[ RUN      ] GameTestFixture.InvalidRobotDirection
+[       OK ] GameTestFixture.InvalidRobotDirection (0 ms)
+[ RUN      ] GameTestFixture.HammerCannotBreakBottomBoundary
+[       OK ] GameTestFixture.HammerCannotBreakBottomBoundary (0 ms)
+[ RUN      ] GameTestFixture.HammerCannotBreakLeftBoundary
+[       OK ] GameTestFixture.HammerCannotBreakLeftBoundary (0 ms)
+[ RUN      ] GameTestFixture.HammerCannotBreakRightBoundary
+[       OK ] GameTestFixture.HammerCannotBreakRightBoundary (0 ms)
+[ RUN      ] GameTestFixture.CollectSwordWhileHammerActive
+=======================================================
+You picked up:
+Sword: A sharp blade that can slay the minotaur.
+=======================================================
+[       OK ] GameTestFixture.CollectSwordWhileHammerActive (0 ms)
+[ RUN      ] GameTestFixture.PlaceFieldsWithNoAvailablePositions
+[       OK ] GameTestFixture.PlaceFieldsWithNoAvailablePositions (0 ms)
+[ RUN      ] GameTestFixture.PlaceItemsWithInsufficientSpace
+[       OK ] GameTestFixture.PlaceItemsWithInsufficientSpace (0 ms)
+[----------] 46 tests from GameTestFixture (17 ms total)
+
 [----------] 18 tests from MazeSizes/MazeGeneratorTest
 [ RUN      ] MazeSizes/MazeGeneratorTest.CorrectDimensions/0
 [       OK ] MazeSizes/MazeGeneratorTest.CorrectDimensions/0 (0 ms)
@@ -146,5 +309,5 @@ Running main() from googletest/src/gtest_main.cc
 [----------] 18 tests from MazeSizes/MazeGeneratorTest (8 ms total)
 
 [----------] Global test environment tear-down
-[==========] 63 tests from 6 test suites ran. (11 ms total)
-[  PASSED  ] 63 tests.
+[==========] 131 tests from 7 test suites ran. (33 ms total)
+[  PASSED  ] 131 tests.

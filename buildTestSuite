@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Require recipient before starting
@@ -6,6 +5,12 @@ if [ -z "$1" ]; then
     echo "Usage: ./buildTestSuite RECIPIENT_EMAIL"
     exit 1
 fi
+
+mkdir -p evidence
+
+# Remove previous results to avoid reporting stale data
+rm -f evidence/regression_results.xml
+rm -f evidence/regression_results.txt
 
 # Build the project
 echo "Building project..."
@@ -15,8 +20,6 @@ BUILD_STATUS=$?
 # Run regression tests if build succeeds
 if [ "$BUILD_STATUS" -eq 0 ]; then
     echo "Running regression tests..."
-
-    mkdir -p evidence
 
     ./build-ninja/bin/AllTests \
         --gtest_output=xml:evidence/regression_results.xml \
@@ -47,8 +50,18 @@ echo "Build Successful: $BUILD_SUCCESS"
 echo "Tests Passed: $TESTS_PASSED"
 echo "-----------------------------"
 
-# Send email using existing Python script
+# Send regression testing email
 echo "Sending regression testing email..."
 
 python3 send_regression_email.py \
     "$1" "$BUILD_SUCCESS" "$TESTS_PASSED"
+
+EMAIL_STATUS=$?
+
+if [ "$BUILD_STATUS" -ne 0 ] || \
+   [ "$TEST_STATUS" -ne 0 ] || \
+   [ "$EMAIL_STATUS" -ne 0 ]; then
+    exit 1
+fi
+
+exit 0
