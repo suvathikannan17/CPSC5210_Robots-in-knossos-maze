@@ -553,3 +553,62 @@ TEST(GameIOTest, WriteMazeToInvalidPath) {
         std::string::npos
     );
 }
+
+// Test 48: Verify that dimensions below the minimum are rejected.
+TEST(GameIOTest, ColumnSizeBelowMinimum) {
+    std::istringstream input("20 14\n20 20\nq\n");
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+
+    int rows = 0;
+    int columns = 0;
+
+    bool result = GameIO::getValidDimensions(rows, columns);
+
+    std::cin.rdbuf(oldCin);
+
+    EXPECT_TRUE(result);
+    EXPECT_EQ(rows, 20);
+    EXPECT_EQ(columns, 20);
+}
+
+// Test 49: Verify that dimensions above the maximum are rejected.
+TEST(GameIOTest, ColumnSizeAboveMaximum) {
+    std::istringstream input("20 171\n20 20\nq\n");
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+
+    int rows = 0;
+    int columns = 0;
+
+    bool result = GameIO::getValidDimensions(rows, columns);
+
+    std::cin.rdbuf(oldCin);
+
+    EXPECT_TRUE(result);
+    EXPECT_EQ(rows, 20);
+    EXPECT_EQ(columns, 20);
+}
+
+// Test 50: Verify that an empty filename defaults to "last_maze_state.txt".
+TEST(GameIOTest, WriteMazeWithEmptyFilename) {
+    Maze maze(15, 15, 0);
+
+    std::string message = "Default filename test";
+
+    GameIO::writeMazeToFile(maze, "", message);
+
+    std::ifstream file("last_maze_state.txt");
+
+    EXPECT_TRUE(file.is_open());
+
+    std::stringstream content;
+    content << file.rdbuf();
+
+    EXPECT_NE(
+        content.str().find(message),
+        std::string::npos
+    );
+
+    file.close();
+}
