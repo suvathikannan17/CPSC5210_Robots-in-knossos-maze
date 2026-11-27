@@ -1,7 +1,7 @@
 
 #include <gtest/gtest.h>
 #include "Game.h"
-
+#include "Item.h"
 #include <iostream>
 #include <sstream>
 #include <string>
@@ -93,6 +93,16 @@ protected:
 
     std::pair<bool, int> getWarFogState() {
         return game.war_fog_state_;
+    }
+
+    void placeItem(Item* item) {
+    auto position = item->getPosition();
+
+    int row = position.first;
+    int column = position.second;
+
+    delete game.maze_[row][column];
+    game.maze_[row][column] = item;
     }
 };
 
@@ -320,4 +330,64 @@ TEST_F(GameTestFixture, ItemExpirationBoundary) {
     EXPECT_EQ(getShieldState(), std::make_pair(false, -1));
     EXPECT_EQ(getHammerState(), std::make_pair(false, -1));
     EXPECT_EQ(getWarFogState(), std::make_pair(false, -1));
+}
+
+// Test 21: Robot collects hammer and activates its effect.
+TEST_F(GameTestFixture, CollectHammer) {
+    placeItem(new Hammer({6, 7}));
+
+    EXPECT_EQ(getSymbol(6, 7), 'P');
+    EXPECT_FALSE(getHammerState().first);
+
+    EXPECT_FALSE(moveRobot('W'));
+
+    EXPECT_EQ(getHammerState(), std::make_pair(true, 3));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+    EXPECT_EQ(getSymbol(7, 7), ' ');
+}
+
+// Test 22: Robot collects sword and activates its effect.
+TEST_F(GameTestFixture, CollectSword) {
+    placeItem(new Sword({6, 7}));
+
+    EXPECT_EQ(getSymbol(6, 7), 'P');
+    EXPECT_FALSE(getSwordState().first);
+
+    EXPECT_FALSE(moveRobot('W'));
+
+    EXPECT_EQ(getSwordState(), std::make_pair(true, 3));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+    EXPECT_EQ(getSymbol(7, 7), ' ');
+}
+
+// Test 23: Robot collects shield and activates its effect.
+TEST_F(GameTestFixture, CollectShield) {
+    placeItem(new Shield({6, 7}));
+
+    EXPECT_EQ(getSymbol(6, 7), 'P');
+    EXPECT_FALSE(getShieldState().first);
+
+    EXPECT_FALSE(moveRobot('W'));
+
+    EXPECT_EQ(getShieldState(), std::make_pair(true, 3));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+    EXPECT_EQ(getSymbol(7, 7), ' ');
+}
+
+// Test 24: Robot collects war fog and activates its effect.
+TEST_F(GameTestFixture, CollectWarFog) {
+    placeItem(new WarFog({6, 7}));
+
+    EXPECT_EQ(getSymbol(6, 7), 'P');
+    EXPECT_FALSE(getWarFogState().first);
+
+    EXPECT_FALSE(moveRobot('W'));
+
+    EXPECT_EQ(getWarFogState(), std::make_pair(true, 3));
+    EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+    EXPECT_EQ(getSymbol(7, 7), ' ');
 }
