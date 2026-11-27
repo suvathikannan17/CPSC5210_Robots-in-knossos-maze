@@ -9,6 +9,8 @@
 #include "Consts.h"
 #include <iostream>
 #include <string>
+#include <fstream>
+#include <filesystem>
 
 using namespace std;
 
@@ -459,4 +461,95 @@ TEST(GameIOTest, AllValidMovementDirections) {
         EXPECT_FALSE(quit);
         EXPECT_EQ(direction, expected);
     }
+}
+
+// Test 44: Verify fogged maze output.
+TEST(GameIOTest, PrintFoggedMaze) {
+    Maze maze(15, 15, 0);
+    Field* robot = maze[7][7];
+
+    testing::internal::CaptureStdout();
+    GameIO::printFoggedMaze(maze, robot);
+    std::string output = testing::internal::GetCapturedStdout();
+
+    EXPECT_FALSE(output.empty());
+
+    std::istringstream lines(output);
+    std::string line;
+    int rowCount = 0;
+
+    while (std::getline(lines, line)) {
+        EXPECT_EQ(line.length(), 7u);
+        rowCount++;
+    }
+
+    EXPECT_EQ(rowCount, 7);
+}
+
+// Test 45: Verify fogged maze at the boundary.
+TEST(GameIOTest, PrintFoggedMazeAtBoundary) {
+    Maze maze(15, 15, 0);
+    Field* robot = maze[0][0];
+
+    testing::internal::CaptureStdout();
+    GameIO::printFoggedMaze(maze, robot);
+    std::string output = testing::internal::GetCapturedStdout();
+
+    std::istringstream lines(output);
+    std::string line;
+    int rowCount = 0;
+
+    while (std::getline(lines, line)) {
+        EXPECT_EQ(line.length(), 4u);
+        rowCount++;
+    }
+
+    EXPECT_EQ(rowCount, 4);
+}
+
+// Test 46: Verify maze is written to a file.
+TEST(GameIOTest, WriteMazeToFile) {
+    Maze maze(15, 15, 0);
+
+    std::string filename = "test_gameio_maze_output.txt";
+    std::string message = "Test game completed";
+
+    GameIO::writeMazeToFile(maze, filename, message);
+
+    std::ifstream file(filename);
+
+    EXPECT_TRUE(file.is_open());
+
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+
+    std::string content = buffer.str();
+
+    EXPECT_FALSE(content.empty());
+    EXPECT_NE(content.find(message), std::string::npos);
+    EXPECT_NE(content.find("#"), std::string::npos);
+
+    file.close();
+
+    // Remove the generated test file.
+    std::filesystem::remove(filename);
+}
+
+// Test 47: Verify invalid file path handling.
+TEST(GameIOTest, WriteMazeToInvalidPath) {
+    Maze maze(15, 15, 0);
+
+    std::string filename = "/dev/null/test_maze.txt";
+    std::string message = "Test result";
+
+    testing::internal::CaptureStdout();
+
+    GameIO::writeMazeToFile(maze, filename, message);
+
+    std::string output = testing::internal::GetCapturedStdout();
+
+    EXPECT_NE(
+        output.find("Error: Unable to open file"),
+        std::string::npos
+    );
 }
