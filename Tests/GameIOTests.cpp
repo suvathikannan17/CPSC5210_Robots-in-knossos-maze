@@ -201,9 +201,176 @@ TEST(GameIOTest, ValidDimensions) {
     EXPECT_TRUE(result);
 }
 
-// // Run each test with different maze sizes
-// INSTANTIATE_TEST_SUITE_P(
-//     MazeSizes,
-//     GameIOTest,
-//     testing::Values(15, 16, 21)
-// );
+
+// Test 29: Accept a valid number of items.
+TEST(GameIOTest, ValidItemsNumber) {
+    std::istringstream input("4\nq\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    int items = 0;
+    bool result = GameIO::getValidItemsNum(items, 20, 20);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_TRUE(result);
+    EXPECT_EQ(items, 4);
+}
+
+// Test 30: Reject negative item count.
+TEST(GameIOTest, NegativeItemsNumber) {
+    std::istringstream input("-5\n4\nq\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    int items = 0;
+    bool result = GameIO::getValidItemsNum(items, 20, 20);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_TRUE(result);
+    EXPECT_EQ(items, 4);
+    EXPECT_NE(output.str().find("Error:"), std::string::npos);
+}
+
+// Test 31: Reject nonnumeric item input.
+TEST(GameIOTest, NonNumericItemsNumber) {
+    std::istringstream input("abc\n4\nq\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    int items = 0;
+    bool result = GameIO::getValidItemsNum(items, 20, 20);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_TRUE(result);
+    EXPECT_EQ(items, 4);
+    EXPECT_NE(output.str().find("Error:"), std::string::npos);
+}
+
+// Test 32: Quit item count input.
+TEST(GameIOTest, QuitItemsNumber) {
+    std::istringstream input("q\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    int items = 0;
+    bool result = GameIO::getValidItemsNum(items, 20, 20);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_FALSE(result);
+}
+
+// Test 33: Accept uppercase W for movement.
+TEST(GameIOTest, MoveUpUppercase) {
+    std::istringstream input("W\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    char direction = '\0';
+    bool quit = GameIO::getRobotMoveDirection(direction);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_FALSE(quit);
+    EXPECT_EQ(direction, 'W');
+}
+
+// Test 34: Accept lowercase movement.
+TEST(GameIOTest, MoveLeftLowercase) {
+    std::istringstream input("a\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    char direction = '\0';
+    bool quit = GameIO::getRobotMoveDirection(direction);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_FALSE(quit);
+    EXPECT_EQ(direction, 'a');
+}
+
+// Test 35: Reject invalid movement and accept valid movement.
+TEST(GameIOTest, InvalidMoveThenValid) {
+    std::istringstream input("X\nD\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    char direction = '\0';
+    bool quit = GameIO::getRobotMoveDirection(direction);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_FALSE(quit);
+    EXPECT_EQ(direction, 'D');
+    EXPECT_NE(output.str().find("Invalid input"), std::string::npos);
+}
+
+// Test 36: Quit movement using lowercase q.
+TEST(GameIOTest, QuitMovementLowercase) {
+    std::istringstream input("q\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    char direction = '\0';
+    bool quit = GameIO::getRobotMoveDirection(direction);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_TRUE(quit);
+}
+
+// Test 37: Quit movement using uppercase Q.
+TEST(GameIOTest, QuitMovementUppercase) {
+    std::istringstream input("Q\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    char direction = '\0';
+    bool quit = GameIO::getRobotMoveDirection(direction);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_TRUE(quit);
+}
+
+// Test 38: Verify maze output.
+TEST(GameIOTest, PrintMaze) {
+    Maze maze(15, 15, 0);
+
+    testing::internal::CaptureStdout();
+    GameIO::printMaze(maze);
+    std::string output = testing::internal::GetCapturedStdout();
+
+    EXPECT_FALSE(output.empty());
+}
