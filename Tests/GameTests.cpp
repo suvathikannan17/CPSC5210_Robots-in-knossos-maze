@@ -46,6 +46,30 @@ protected:
     char getSymbol(int row, int column) {
         return game.maze_[row][column]->getSymbol();
     }
+
+    void activateHammer() {
+    game.hammer_state_ = {true, 3};
+    }
+
+    void activateSword() {
+        game.sword_state_ = {true, 3};
+    }
+
+    void activateShield() {
+        game.shield_state_ = {true, 3};
+    }
+
+    void placeRobot(int row, int column) {
+        game.robot_->setSymbol(' ');
+        game.robot_ = game.maze_[row][column];
+        game.robot_->setSymbol('R');
+    }
+
+    void placeMinotaur(int row, int column) {
+        game.minotaur_->setSymbol(' ');
+        game.minotaur_ = game.maze_[row][column];
+        game.minotaur_->setSymbol('M');
+    }
 };
 
 // Test 1: Construct game with valid dimensions
@@ -132,4 +156,61 @@ TEST_F(GameTestFixture, RobotMovesIntoEntrance) {
     EXPECT_FALSE(moveRobot('W'));
     EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
     EXPECT_EQ(getSymbol(6, 7), 'R');
+}
+
+// Test 10: Robot can break an interior wall with hammer.
+TEST_F(GameTestFixture, HammerBreaksWall) {
+    activateHammer();
+    setSymbol(6, 7, '#');
+
+    EXPECT_FALSE(moveRobot('W'));
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(6, 7));
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+    EXPECT_EQ(getSymbol(7, 7), ' ');
+}
+
+// Test 11: Hammer cannot break a boundary wall.
+TEST_F(GameTestFixture, HammerCannotBreakBoundaryWall) {
+    activateHammer();
+    placeRobot(1, 7);
+
+    EXPECT_FALSE(moveRobot('W'));
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(1, 7));
+    EXPECT_EQ(getSymbol(0, 7), '#');
+    EXPECT_EQ(getSymbol(1, 7), 'R');
+}
+
+// Test 12: Robot defeats minotaur using sword.
+TEST_F(GameTestFixture, RobotDefeatsMinotaurWithSword) {
+    activateSword();
+    placeMinotaur(6, 7);
+
+    EXPECT_TRUE(moveRobot('W'));
+
+    EXPECT_EQ(getSymbol(7, 7), ' ');
+    EXPECT_EQ(getSymbol(6, 7), 'R');
+}
+
+// Test 13: Shield protects robot during collision.
+TEST_F(GameTestFixture, ShieldProtectsRobot) {
+    activateShield();
+    placeMinotaur(6, 7);
+
+    EXPECT_FALSE(moveRobot('W'));
+
+    EXPECT_EQ(getRobotPosition(), std::make_pair(7, 7));
+    EXPECT_EQ(getSymbol(7, 7), 'R');
+    EXPECT_EQ(getSymbol(6, 7), 'M');
+}
+
+// Test 14: Robot loses combat without sword or shield.
+TEST_F(GameTestFixture, RobotLosesWithoutProtection) {
+    placeMinotaur(6, 7);
+
+    EXPECT_TRUE(moveRobot('W'));
+
+    EXPECT_EQ(getSymbol(7, 7), ' ');
+    EXPECT_EQ(getSymbol(6, 7), 'M');
 }
