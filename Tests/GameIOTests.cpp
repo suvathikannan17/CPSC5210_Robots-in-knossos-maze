@@ -374,3 +374,89 @@ TEST(GameIOTest, PrintMaze) {
 
     EXPECT_FALSE(output.empty());
 }
+
+// Test 39: Verify maximum item count calculation.
+TEST(GameIOTest, MaximumItemsCalculation) {
+    EXPECT_EQ(get_max_items_num(20, 20), 16);
+    EXPECT_EQ(get_max_items_num(30, 30), 39);
+}
+
+// Test 40: Accept maximum allowed item count.
+TEST(GameIOTest, MaximumItemsAccepted) {
+    std::istringstream input("16\nq\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    int items = 0;
+    bool result = GameIO::getValidItemsNum(items, 20, 20);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_TRUE(result);
+    EXPECT_EQ(items, 16);
+}
+
+// Test 41: Reject item count above maximum.
+TEST(GameIOTest, AboveMaximumItemsRejected) {
+    std::istringstream input("17\n4\nq\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    int items = 0;
+    bool result = GameIO::getValidItemsNum(items, 20, 20);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_TRUE(result);
+    EXPECT_EQ(items, 4);
+    EXPECT_NE(output.str().find("Error:"), std::string::npos);
+}
+
+// Test 42: Verify exact minimum item count is rejected.
+// Documents current boundary validation behavior.
+TEST(GameIOTest, ExactMinimumItemsRejected) {
+    std::istringstream input("3\n4\nq\n");
+    std::ostringstream output;
+
+    auto* oldCin = std::cin.rdbuf(input.rdbuf());
+    auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+    int items = 0;
+    bool result = GameIO::getValidItemsNum(items, 20, 20);
+
+    std::cin.rdbuf(oldCin);
+    std::cout.rdbuf(oldCout);
+
+    EXPECT_TRUE(result);
+    EXPECT_EQ(items, 4);
+    EXPECT_NE(output.str().find("Error:"), std::string::npos);
+}
+
+// Test 43: Verify all valid movement directions.
+TEST(GameIOTest, AllValidMovementDirections) {
+    std::string directions = "WwAaSsDd";
+
+    for (char expected : directions) {
+        std::istringstream input(
+            std::string(1, expected) + "\nq\n");
+        std::ostringstream output;
+
+        auto* oldCin = std::cin.rdbuf(input.rdbuf());
+        auto* oldCout = std::cout.rdbuf(output.rdbuf());
+
+        char direction = '\0';
+        bool quit = GameIO::getRobotMoveDirection(direction);
+
+        std::cin.rdbuf(oldCin);
+        std::cout.rdbuf(oldCout);
+
+        EXPECT_FALSE(quit);
+        EXPECT_EQ(direction, expected);
+    }
+}
